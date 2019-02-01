@@ -5,9 +5,9 @@ class IndexController extends BaseController
 {
     public function index()
     {
-        $test = M('Tab1');
+        $test = M('Goods');
         $d = $test->select();
-        print_r($d);die;
+        // print_r($d);die;
         $this->display('Index/index');
     }
 
