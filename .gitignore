@@ -1,0 +1,4 @@
+.idea
+*.log
+/App/Runtime/Cache/Home
+/nbproject
